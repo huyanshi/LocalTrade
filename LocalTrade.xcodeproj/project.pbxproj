@@ -74,6 +74,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		905A42251CD3613E0061BA67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		905A42261CD3613E0061BA67 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		905A42271CD3613E0061BA67 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		905A42281CD3613E0061BA67 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				905A42291CD3613E0061BA67 /* Category */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		905A42291CD3613E0061BA67 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		905A422A1CD3613E0061BA67 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		905A422B1CD3613E0061BA67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		905A422C1CD3613E0061BA67 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		905A422D1CD3613E0061BA67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		907150D41CCF93B2004BC8E2 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +161,14 @@
 		907150DF1CCF93B2004BC8E2 /* LocalTrade */ = {
 			isa = PBXGroup;
 			children = (
+				905A42251CD3613E0061BA67 /* Model */,
+				905A42261CD3613E0061BA67 /* NetManager */,
+				905A42271CD3613E0061BA67 /* Resource */,
+				905A42281CD3613E0061BA67 /* Util */,
+				905A422A1CD3613E0061BA67 /* Vendor */,
+				905A422B1CD3613E0061BA67 /* View */,
+				905A422C1CD3613E0061BA67 /* ViewController */,
+				905A422D1CD3613E0061BA67 /* ViewModel */,
 				907150E01CCF93B2004BC8E2 /* AppDelegate.swift */,
 				907150E21CCF93B2004BC8E2 /* ViewController.swift */,
 				907150E41CCF93B2004BC8E2 /* Main.storyboard */,
@@ -484,6 +556,7 @@
 				907151071CCF93B3004BC8E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		907151081CCF93B3004BC8E2 /* Build configuration list for PBXNativeTarget "LocalTradeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +565,7 @@
 				9071510A1CCF93B3004BC8E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9071510B1CCF93B3004BC8E2 /* Build configuration list for PBXNativeTarget "LocalTradeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +574,7 @@
 				9071510D1CCF93B3004BC8E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
